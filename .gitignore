@@ -1,0 +1,14 @@
+target
+.DS_Store
+.project
+.classpath
+.settings/
+.buildpath
+.cproject
+*.launch
+.externalToolBuilders/
+.loadpath
+bin/
+GenJniCode/
+tmp/
+Thumbs.db
