@@ -24,7 +24,7 @@ public class MobileApplicationTest extends MobileApplication {
 		}
 		
 		// Set scene with buttons
-		stage.setScene(new Scene(box, 320, 240));
+		stage.setScene(new Scene(box));
 		
 		// Apply stylesheet to scene
 		stage.getScene().setStylesheet(""
@@ -69,8 +69,5 @@ public class MobileApplicationTest extends MobileApplication {
 				+ "		box-shadow: 0px 4px 6px -2px rgba(60, 64, 67, 0.2),"
 				+ "					0px 8px 12px 2px rgba(60, 64, 67, 0.1);"
 				+ "}");
-		
-		// Turn stage on
-		stage.show();
 	}
 }
