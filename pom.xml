@@ -371,11 +371,6 @@
 		</dependency>
 		<dependency>
 			<groupId>org.lwjgl</groupId>
-			<artifactId>lwjgl-vulkan</artifactId>
-			<classifier>${lwjgl.natives}</classifier>
-		</dependency>
-		<dependency>
-			<groupId>org.lwjgl</groupId>
 			<artifactId>lwjgl-xxhash</artifactId>
 			<classifier>${lwjgl.natives}</classifier>
 		</dependency>
@@ -389,7 +384,7 @@
 			<artifactId>lwjgl-zstd</artifactId>
 			<classifier>${lwjgl.natives}</classifier>
 		</dependency>
-			<dependency>
+		<dependency>
 			<groupId>org.joml</groupId>
 			<artifactId>joml</artifactId>
 			<version>${joml.version}</version>
